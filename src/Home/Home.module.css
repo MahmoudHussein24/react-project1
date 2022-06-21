@@ -1,0 +1,63 @@
+.home{
+    background-color: #1abc9c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.h1Header{
+    color: white;
+    font-size: 50px;
+    width: 1000;
+}
+.pHeader{
+    color: white;
+    font-size: 20px;
+    width: 400;
+}
+.center{
+    padding: 5px;
+    text-align: center;
+}
+
+
+.star{
+    color: white !important;
+    font-size: 30px;
+    
+}
+.homeIcon{
+    position: relative;
+    
+
+}
+
+
+.homeIcon::after{
+    content: "" ;
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 45px;
+
+
+}
+
+
+
+.homeIcon::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width:100px ;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 45px;
+}
+
+

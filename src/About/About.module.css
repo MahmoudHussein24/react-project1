@@ -1,0 +1,72 @@
+.bigContainer{
+    background-color: #1abc9c;
+
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1About{
+
+    color: white !important;
+
+}
+.layout{
+    text-align: center;
+    position: relative;
+}
+.stars{
+    color: white !important;
+    font-size: 30px;
+}
+
+.aboutIcon{
+    position: relative;
+
+}
+
+.aboutIcon::after{
+    content: "" ;
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 80%;
+
+
+}
+
+
+
+.aboutIcon::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width:100px ;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 80%;
+}
+
+
+
+.praghraphs{
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    
+}
+.summary{
+    font-size: 20px;
+}
+

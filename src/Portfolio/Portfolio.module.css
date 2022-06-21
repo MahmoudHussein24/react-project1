@@ -1,0 +1,83 @@
+.portfolio{
+    text-align: center;
+    
+}
+
+.h1portfolio{
+    justify-content: center;
+}
+
+.ngma{
+    color: #212529 !important;
+    font-size: 30px;
+    
+}
+.pIcon{
+    position: relative;
+    width: 60%;
+    margin: auto;
+
+
+}
+
+
+.pIcon::after{
+    content: "" ;
+    position: absolute;
+    background-color: #212529;
+    width: 10%;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35%;
+
+
+}
+
+
+
+.pIcon::before{
+    content: "";
+    position: absolute;
+    background-color: #212529;
+    width:10% ;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35%;
+}
+
+.pImage{
+    border-radius: 10px;
+}
+
+.image{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    background-color: #1abc9cc7;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .3s;
+    border-radius: 10px;
+
+}
+.overlay:hover{
+opacity: 20;
+}
+/* media query */
+@media(max-width:660px){
+    .pIcon::before{
+        left: 25%;
+    }
+    .pIcon::after{
+        right: 25%;
+
+    }
+}

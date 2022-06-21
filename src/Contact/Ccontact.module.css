@@ -1,0 +1,65 @@
+.contact{
+    text-align: center;
+    
+    
+}
+.h1Contact{
+    justify-content: center;
+}
+.ngma{
+    color: #212529 !important;
+    font-size: 30px;
+    
+}
+.pIcon{
+    position: relative;
+    width: 60%;
+    margin: auto;
+
+
+}
+
+
+.pIcon::after{
+    content: "" ;
+    position: absolute;
+    background-color: #212529;
+    width: 10%;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35%;
+
+
+}
+
+
+
+.pIcon::before{
+    content: "";
+    position: absolute;
+    background-color: #212529;
+    width:10% ;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35%;
+}
+.form{
+    
+    align-items: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 60px;
+
+}
+
+.Input{
+    margin-bottom: 20px;
+}
+.btn{
+    color: white;
+    background-color: #1abc9c !important;
+    outline: none;
+    border-color: #1abc9c;
+}
